@@ -1,5 +1,7 @@
 import { db } from "@/server/db";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const mockUrls = [
     "https://fvslhnpchvxhijfmpobi.supabase.co/storage/v1/object/public/Images/Free%20Images/Inbox_Zoho_Mail.png",
