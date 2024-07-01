@@ -8,5 +8,5 @@ export default {
   dbCredentials: {
     url: env.DATABASE_URL,
   },
-  tablesFilter: ["t3-gallery_*"],
+  tablesFilter: ["bid-buddy_*"],
 } satisfies Config;
